@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "guest",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "in": {
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "name",
+        "in"
+    ],
+    "additionalProperties": false
+}
